@@ -43,3 +43,37 @@
   .navbar-nav .nav-item {
     margin-left: 15px; /* Jarak antara menu di sebelah kiri */
   }
+  #carousel {
+    position: relative;
+  }
+  
+/* Carousel Description */
+.carousel-description {
+    position: absolute;
+    top: 0; /* Letakkan di bagian atas carousel */
+    left: 0; /* Tetap di tepi kiri container */
+    width: 100%; /* Lebar background sesuai dengan container */
+    height: 100%; /* Tinggi background sesuai dengan tinggi carousel */
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    padding: 20px; /* Sesuaikan padding jika diperlukan */
+    display: flex; /* Agar teks bisa diatur vertikal di tengah */
+    align-items: center; /* Vertikal align di tengah */
+    z-index: 10;
+    max-width: 50%;
+  }
+  
+  
+  #carousel img {
+    height: 500px; /* Sesuaikan tinggi gambar slide */
+    object-fit: cover; /* Agar gambar tidak terdistorsi */
+  }
+
+/* Styling buat gambar di carousel */
+#carousel img {
+    border-top: 5px solid #1f5a7d ; /* Kasih bingkai di bagian atas aja */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Bayangan di bawah bingkai atas */
+  }
+  
+  
+  
