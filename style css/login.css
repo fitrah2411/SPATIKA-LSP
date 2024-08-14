@@ -1,40 +1,3 @@
-body {
-    background-color: #f8f9fa;
-}
-.form-container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 30px auto;
-}
-.form-title {
-    font-size: 28px;
-    color: #343a40;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.form-label {
-    font-weight: bold;
-    color: #495057;
-}
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.btn-primary:hover {
-    background-color: #0056b3;
-}
-.form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
 .brand-name {
     font-weight: bold;
     color: #162430 ; 
@@ -82,4 +45,42 @@ body {
     }
     #carousel {
       position: relative;
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+    .login-container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .login-container img {
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+    .login-title {
+        font-size: 24px;
+        color: #343a40;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
