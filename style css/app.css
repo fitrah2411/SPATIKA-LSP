@@ -75,5 +75,80 @@
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Bayangan di bawah bingkai atas */
   }
   
+  /* Styling buat Welcome Section */
+.welcome-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Warna background abu-abu muda */
+  }
+  
+  .welcome-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:#162430; /* Warna teks hitam */
+    margin-bottom: 5px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.25rem;
+    color:#162430; /* Warna teks abu-abu tua */
+    line-height: 1.7;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2rem; /* Ukuran lebih kecil dari H1 */
+    font-weight: 600;
+    color: #162430; /* Warna teks abu-abu tua */
+    margin-bottom: 5px;
+  }
+  
+  /* Styling buat About Section */
+.about-section img {
+    border-radius: 10px; /* Bikin foto sudutnya melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kasih shadow buat efek kedalaman */
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  /* Styling buat Stats Section */
+.stats-section i {
+    font-size: 4rem; /* Ukuran icon besar */
+    color: #007bff; /* Warna icon sesuai branding */
+  }
+  
+  .stats-section h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .stats-section p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  /* Styling buat Judul Section */
+.stats-section h2 {
+    font-size: 2.5rem; /* Ukuran font buat judul */
+    font-weight: 700; /* Bold */
+    color: #333; /* Warna teks */
+    margin-bottom: 10px; /* Jarak antara judul dan deskripsi */
+  }
+  
+  .stats-section p.lead {
+    font-size: 1.25rem;
+    color: #666; /* Warna teks lebih terang */
+  }
   
   
