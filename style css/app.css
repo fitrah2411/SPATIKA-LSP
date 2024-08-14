@@ -110,7 +110,7 @@
   .about-section h2 {
     font-size: 2rem;
     font-weight: 700;
-    color: #333;
+    color: #162430;
     margin-bottom: 20px;
   }
   
@@ -142,7 +142,7 @@
 .stats-section h2 {
     font-size: 2.5rem; /* Ukuran font buat judul */
     font-weight: 700; /* Bold */
-    color: #333; /* Warna teks */
+    color: #162430; /* Warna teks */
     margin-bottom: 10px; /* Jarak antara judul dan deskripsi */
   }
   
@@ -150,5 +150,105 @@
     font-size: 1.25rem;
     color: #666; /* Warna teks lebih terang */
   }
+
+  /* Styling buat Provinces Section */
+.provinces-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #162430;
+  }
   
+  .provinces-section .card {
+    border: 1px solid #ddd; /* Border card */
+    border-radius: 8px; /* Sudut card melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow card */
+  }
   
+  .provinces-section .card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .provinces-section ul {
+    padding-left: 0;
+  }
+  
+  .provinces-section li {
+    font-size: 1.20rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .provinces-section i {
+    color: #007bff; /* Warna icon */
+    margin-right: 8px; /* Jarak antara icon dan teks */
+  }
+  
+  /* Misalnya, tambahin delay 1 detik */
+.section-kami.animate__fadeInUp {
+    animation-delay: 1s;
+}
+/* bagian didukung oleh*/
+.support-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.support-section img {
+    max-width: 80px; /* Ukuran maksimal logo */
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 10%; /* Maksimal 10 logo per baris */
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-2 {
+        max-width: 10%; /* Maksimal 10 logo per baris pada layar besar */
+    }
+}
+
+@media (max-width: 991px) {
+    .col-md-3 {
+        flex: 0 0 20%; /* Atur ukuran logo di layar medium */
+    }
+}
+
+@media (max-width: 767px) {
+    .col-6 {
+        flex: 0 0 50%; /* Atur ukuran logo di layar kecil */
+    }
+}
+
+/*footer*/
+
+.footer {
+    background-color: #000; /* Warna hitam */
+    color: #fff; /* Teks putih */
+}
+
+.footer-logo img {
+    max-width: 150px; /* Ukuran maksimal logo footer */
+}
+
+.footer a {
+    color: #fff; /* Warna link putih */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
