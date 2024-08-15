@@ -116,7 +116,7 @@
   
   .about-section p {
     font-size: 1.125rem;
-    color: #555;
+    color: #162430;
     line-height: 1.8;
   }
 
@@ -134,7 +134,7 @@
   
   .stats-section p {
     font-size: 1.25rem;
-    color: #555;
+    color: #162430;
     margin-top: 10px;
   }
 
@@ -148,7 +148,7 @@
   
   .stats-section p.lead {
     font-size: 1.25rem;
-    color: #666; /* Warna teks lebih terang */
+    color: #162430; /* Warna teks lebih terang */
   }
 
   /* Styling buat Provinces Section */

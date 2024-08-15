@@ -83,3 +83,23 @@ body {
     #carousel {
       position: relative;
     }
+
+    /*footer*/
+
+.footer {
+  background-color: #000; /* Warna hitam */
+  color: #fff; /* Teks putih */
+}
+
+.footer-logo img {
+  max-width: 150px; /* Ukuran maksimal logo footer */
+}
+
+.footer a {
+  color: #fff; /* Warna link putih */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
